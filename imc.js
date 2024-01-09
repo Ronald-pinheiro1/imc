@@ -14,7 +14,7 @@ function mostrar(){
         return alert("Formulário não foi preenchido\ncompletemnete. tente outra vez.")
     }
 
-    return resp.innerHTML+=`<p>Ola, <i>${nom}!</i> seu indice de massa corpoôrea é: <strong><i>${calcular()}</i></strong>, e sua classificação da faxaétaria foi:<strong><i>${faixetaria(calcular())}.</i></strong> Espero ter te deixado satisfeito com esse resultado.</i></p>`
+    return resp.innerHTML+=`<p id="resp_p">Ola, <i>${nom}!</i> seu indice de massa corpoôrea é: <strong><i>${calcular()}</i></strong>, e sua classificação da faxaétaria foi:<strong><i>${faixetaria(calcular())}.</i></strong> Espero ter te deixado satisfeito com esse resultado.</i></p>`
 }
 
 function calcular(){
