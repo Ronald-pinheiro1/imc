@@ -12,6 +12,7 @@ main{
     height: 660px;
     margin: 1px 0px 0px 14px;
     border: solid 2px black;
+    border-radius: 10px;
 }
 header{
     height: 90px;
