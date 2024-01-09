@@ -9,6 +9,7 @@ function mostrar(){
     let nom = String(nome.value)
     let stat =Number(estatura.value)
     let mass = Number(massa.value)
+    
     if(nom.length== 0 || stat == 0 || mass == 0 ){
         return alert("Formulário não foi preenchido\ncompletemnete. tente outra vez.")
     }
