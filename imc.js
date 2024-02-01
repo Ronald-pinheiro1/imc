@@ -5,7 +5,7 @@
 
 
 function mostrar(){
-    resp.innerText=""
+    
     let nom = String(nome.value)
     let stat =Number(estatura.value)
     let mass = Number(massa.value)
@@ -13,6 +13,7 @@ function mostrar(){
     if(nom.length== 0 || stat == 0 || mass == 0 ){
         return alert("Formulário não foi preenchido\ncompletemnete. tente outra vez.")
     }
+    resp.innerText=""
 
     return resp.innerHTML+=`<p id="resp_p">Ola, <i>${nom}!</i> seu indice de massa corpoôrea é: <strong><i>${calcular()}</i></strong>, e sua classificação da faxaétaria foi:<strong><i>${faixetaria(calcular())}.</i></strong> Espero ter te deixado satisfeito com esse resultado.</i></p>`
 }
